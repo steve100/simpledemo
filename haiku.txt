@@ -37,6 +37,23 @@ Golden light awakes
 Morning's fiery promise
 Hope begins anew
 
+C:\Users\Steve\projects\simple-demo>python3 simple.py openai
+Arguments: openai
+openai
+Golden rays emerge,
+Whispers of a new day greet,
+Night's shadows retreat.
+
+C:\Users\Steve\projects\simple-demo>rem This will run locally with ollama
+
+C:\Users\Steve\projects\simple-demo>python3 simple.py local
+Arguments: local
+local
+Softly dawn's awake
+Golden hues upon the land
+Morning's gentle kiss
+
+
 
 unicorn story from verysimple.py
 C:\Users\Steve\projects\simple-demo>python3 verysimple.py

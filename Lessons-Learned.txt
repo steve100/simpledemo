@@ -1,4 +1,20 @@
+x. Windows is more accessable than WSL or Linux.
+   Linux Python will work the same.
 
+x. AMD consumer grade cards:
+   ollama at this time will not use the gpu .. see ollama ps below.
+   lmstudio will use vulkan which can use my gpu
+   WSL will not use the AMD graphics cards unless they are NVIDIA
+   docker .. same
+   Virtual Machines will not use the gpu.
+   vLLM (a program like Ollama) will not use the AMD graphics card.
+
+x. Getting the graphics card to work is 
+   1. much easier on NVIDIA and/or  Apple. 
+      With APPlE get an M4 pro or M4 max processor with at least 32Gb ram .. 64+ is much better .. 96 Gb gr8.
+   2. Not too bad with an AMD strix halo chip
+   3. NVIDIA cards are reportably better under Linux.
+   4. many nice tools work only with NVIDIA
 
 1. Making a unified python program was more difficult that I thought to work local and to openai.
    the local ollama would not take the new call.
@@ -6,7 +22,7 @@
 
 2. Adding JavaScript with NodeJS was an after thought 
 
-3. making helper bat files was an after thought
+3. Making helper bat files was an after thought
 
 4. making install helper bat files was an after thought.
    Ansible would add another layer of complexity .. so would powershell or wsl
@@ -19,4 +35,30 @@
 7. Linux or WSL environment maybe preferred .. Win11 is more accessable to more people.
 
 8.  the list of models for openai keep changing
-    prompt: with the python openai client what are some models I can sue?
+    prompt: with the python openai client what are some models I can use?
+
+9.  Pick a smaller model that most can use. 
+    I started with llama3:latest which is an        8 Billion parameter model  using 5.3 Gb
+    I switched to the IBM granite4 model which is a 3 Billion parameter model  using 2.8 Gb 
+    Models and model size
+
+  
+   link: https://ollama.com/library/granite4
+   link: https://ollama.com/library/granite4:3b
+   ollama ps
+   NAME           ID              SIZE      PROCESSOR    CONTEXT    UNTIL
+   granite4:3b    89962fcc7523    2.8 GB    100% CPU     4096       4 minutes from now
+
+  
+   link: https://ollama.com/library/llama3
+   link: https://ollama.com/library/llama3:latest
+   ollama ps 
+   NAME             ID              SIZE      PROCESSOR    CONTEXT    UNTIL
+   llama3:latest    365c0bd3c000    5.3 GB    100% CPU     4096       4 minutes from now
+
+   on my system now:
+   ollama list
+   NAME              ID              SIZE      MODIFIED
+   granite4:3b       89962fcc7523    2.1 GB    11 minutes ago
+   llama3:latest     365c0bd3c000    4.7 GB    22 hours ago
+   gpt-oss:latest    17052f91a42e    13 GB     9 days ago
