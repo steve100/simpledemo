@@ -30,6 +30,14 @@ Golden rays emerge,
 Whispers of a brand new day,
 Night's shadow retreats.
 
+Golden hues awaken,
+Whispers of a brand new day,
+
+Golden light awakes
+Morning's fiery promise
+Hope begins anew
+
+
 unicorn story from verysimple.py
 C:\Users\Steve\projects\simple-demo>python3 verysimple.py
 Under a silver moon, a sleepy unicorn tiptoed through the whispering meadow, scattering warm stardust over every dream until the whole world sighed itself to sleep.

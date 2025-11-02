@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load variables from .env
 # this is a better way however using environment varable for the key for now.
 # ollama and lm studio do not need a key
-# Load variables from .env file
+# Load variables from .env file .. commentint it out for now
 load_dotenv()
 
 # Get the API key from the encironment .. or the .env if we call load_dotenv() 

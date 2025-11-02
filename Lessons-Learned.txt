@@ -18,3 +18,5 @@
 
 7. Linux or WSL environment maybe preferred .. Win11 is more accessable to more people.
 
+8.  the list of models for openai keep changing
+    prompt: with the python openai client what are some models I can sue?
