@@ -1,0 +1,20 @@
+
+
+1. Making a unified python program was more difficult that I thought to work local and to openai.
+   the local ollama would not take the new call.
+   never really did have a good example on how to pull in a user's api key
+
+2. Adding JavaScript with NodeJS was an after thought 
+
+3. making helper bat files was an after thought
+
+4. making install helper bat files was an after thought.
+   Ansible would add another layer of complexity .. so would powershell or wsl
+
+5. If I used powershell for the scripts, we would have to change the registery 
+   to be able to run powershell scripts from the commandline 
+
+6. I started saving the stories .. I liked one so much I made a word document "Under a silver moon.docx" 
+
+7. Linux or WSL environment maybe preferred .. Win11 is more accessable to more people.
+

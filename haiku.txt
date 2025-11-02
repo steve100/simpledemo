@@ -1,0 +1,35 @@
+(hugo-venv) C:\Users\Steve\projects\simple-demo>python s2.py
+Midnight code whispers
+Screens awash in soft blue glow
+Solutions unfold
+
+(hugo-venv) C:\Users\Steve\projects\simple-demo>ollama ps
+NAME             ID              SIZE      PROCESSOR    CONTEXT    UNTIL
+llama3:latest    365c0bd3c000    5.3 GB    100% CPU     4096       4 minutes from now
+
+(hugo-venv) C:\Users\Steve\projects\simple-demo>python s2.py
+Midnight code flows free
+Keyboard glow, coffee's warmth so
+Code blooms in silence
+
+Golden dawn arises
+Morning's warmth upon my face
+Hope in every beam
+
+>>> /bye
+
+Softly dawns the sun
+Golden hues upon the sea
+Morning's gentle hush
+
+Golden hues arise,
+Whispers of a brand new day,
+Light chases the dark.
+
+Golden rays emerge,
+Whispers of a brand new day,
+Night's shadow retreats.
+
+unicorn story from verysimple.py
+C:\Users\Steve\projects\simple-demo>python3 verysimple.py
+Under a silver moon, a sleepy unicorn tiptoed through the whispering meadow, scattering warm stardust over every dream until the whole world sighed itself to sleep.

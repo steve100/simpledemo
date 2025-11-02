@@ -1,0 +1,3 @@
+rem to export your before you run any of this
+rem OPENAI_API_KEY=sk-proj-665EaIpseL-6Fd ..... 
+python3 verysimple.py openai
