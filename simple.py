@@ -31,17 +31,24 @@ else:
 # if you do not specifiy a location, it will be local
 print(llm)
 
-#llm="openai"
-#llm="local"
 
-if (llm=="local"):
+
+#using default ports 
+
+if (llm=="ollama"):
 # Set the Ollama endpoint (local)
-   
     client = OpenAI(
         base_url="http://localhost:11434/v1"  # Ollama's API endpoint
         #api_key="ollama",  # dummy key required by the client # actually maybe not needed
     )
-    model = "llama3"        # did not use to need this  
+    model = "granite4:3b"        # you now need to set a model
+
+elif (llm=="lmstudio"):
+    client = OpenAI(
+        base_url="http://localhost:1234/v1"  # Ollama's API endpoint
+        #api_key="ollama",  # dummy key required by the client # actually maybe not needed
+    )
+    model = ""        # do not need a key to use existing model.  untested if one assignes a model
     
 elif (llm=="openai"):
 # Initialize client

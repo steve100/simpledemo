@@ -37,6 +37,22 @@ Golden light awakes
 Morning's fiery promise
 Hope begins anew
 
+Golden leaves fall,
+Autumn's gentle embrace, -
+Nature's final song.
+
+
+Golden hues emerge,
+Whispers of a brand new day,
+Night's shadows retreat.
+
+
+Dawn's gentle kiss,
+Colors paint the sky anew.
+Day begins again.
+
+
+
 C:\Users\Steve\projects\simple-demo>python3 simple.py openai
 Arguments: openai
 openai
@@ -56,6 +72,33 @@ Morning's gentle kiss
 Golden hues rise high
 Morning's gentle warmth descends
 Hope eternal born
+
+Sun's gentle kiss,
+New day dawns under vast sky.
+Peaceful morning rise.
+
+C:\Users\Steve\projects\simple-demo>python simple.py ollama
+Arguments: ollama
+ollama
+Crisp morning light,
+Flame-colored dawn unfolds.
+Earth's new day awakens.
+
+C:\Users\Steve\projects\simple-demo>python simple.py lmstudio
+Arguments: lmstudio
+lmstudio
+Here is a haiku about a sunrise:
+
+Gentle sun ascends,
+Painting the sky with gold.
+Morning's new day begins.
+
+C:\Users\Steve\projects\simple-demo>python simple.py openai
+Arguments: openai
+openai
+Golden rays emerge,
+Whispers of the dawn unfold,
+Night's shadow retreats.
 
 
 

@@ -12,6 +12,23 @@
 ### Python examples
 #### verysimple.py # the more simple python program to talk to OpenAI.  It writes a story about a unicorn
 #### simple.py     # a fancier example which  uses local and remote ai. It writes  a haiku (poem)
+```
+rem to export your before you run any of this
+rem set OPENAI_API_KEY=sk-proj-665EaIpseL-6Fd ..... 
+
+rem This runs against openai (chatgpt) 
+python3 simple.py openai
+
+rem This will run locally with ollama
+python3 simple.py ollama
+
+rem this will run locally with LMStudio
+python3 simple.py lmstudio
+
+rem run verysimple against openai
+python3 verysimple.py
+
+```
 
 ### Batch Files to help download, install and run software
 ####  install- It downloads the program  and starts and attended install. (sorry no unattended)
